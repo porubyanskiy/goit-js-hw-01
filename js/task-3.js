@@ -1,3 +1,5 @@
+'use strict';
+
 function getElementWidth(content, padding, border) { 
     const width = Number(content.slice(0, content.indexOf('px')))
         + (2 * Number(padding.slice(0, padding.indexOf('px'))))
